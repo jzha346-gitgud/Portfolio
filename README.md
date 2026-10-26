@@ -132,7 +132,7 @@ A common solution pattern connects an IT service-management platform with Micros
 
 **Skills demonstrated:** AI workflow design, classification, guardrails, prompt design, escalation logic, and human-in-the-loop support.
 
-### 8. Knowledge Search with Databricks and Delta Tables
+### Knowledge Search with Databricks and Delta Tables
 
 **Challenge:** Large archives and technical documents were difficult to search accurately using basic document stores.
 
@@ -171,5 +171,7 @@ A common solution pattern connects an IT service-management platform with Micros
 8. Measure run volume, failure patterns, and manual effort avoided, then refine the solution.
 
 ## Apps and misc
+I occasionally make browser games.
+
 Voice controlled AI Chef Game
 https://yes-chef-game.damemezstudio.workers.dev/
