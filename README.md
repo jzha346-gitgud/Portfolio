@@ -54,7 +54,7 @@ flowchart LR
 - Applied routing and validation logic in Power Automate.
 - Sent progress notes, outcomes, or exceptions back to the original ticket.
 
-**Skills demonstrated:** webhook design, REST APIs, JSON, authentication, Power Automate, error handling, and service-management integration.
+**Skills:** webhook design, REST APIs, JSON, authentication, Power Automate, error handling, and service-management integration.
 
 ### Approval and Access Workflows
 
@@ -68,7 +68,7 @@ flowchart LR
 - Performed account or group actions through scripts, connectors, or APIs.
 - Logged the approval outcome and execution result for audit purposes.
 
-**Skills demonstrated:** approval design, branching logic, Microsoft 365 integration, identity administration, audit trails, and exception management.
+**Skills:** approval design, branching logic, Microsoft 365 integration, identity administration, audit trails, and exception management.
 
 ### Identity Lifecycle Automation
 
@@ -82,7 +82,7 @@ flowchart LR
 - Passed confirmed identifiers to a separate execution process.
 - Supported different retention or deletion paths for offboarding.
 
-**Skills demonstrated:** Active Directory, PowerShell, Power Automate, validation, duplicate detection, approvals, and lifecycle controls.
+**Skills:** Active Directory, PowerShell, Power Automate, validation, duplicate detection, approvals, and lifecycle controls.
 
 ### Infrastructure Monitoring and Automated Remediation
 
@@ -96,7 +96,7 @@ flowchart LR
 - Separated detection, remediation, and notification logic for easier troubleshooting.
 - Identified cloud runbooks as a more maintainable replacement for workstation-dependent execution where practical.
 
-**Skills demonstrated:** PowerShell, monitoring, webhook integration, automated ticket creation, operational resilience, and migration planning.
+**Skills:** PowerShell, monitoring, webhook integration, automated ticket creation, operational resilience, and migration planning.
 
 ### Endpoint Security Response Automation
 
@@ -110,7 +110,7 @@ flowchart LR
 - Polled the task status and handled success, timeout, and failure states.
 - Posted the outcome to the service desk or collaboration channel.
 
-**Skills demonstrated:** security API integration, OAuth authentication, state polling, Power Automate, and incident-response workflow design.
+**Skills:** security API integration, OAuth authentication, state polling, Power Automate, and incident-response workflow design.
 
 ### Operational Reporting and Time-Saved Tracking
 
@@ -123,7 +123,7 @@ flowchart LR
 - Used the stored records to generate recurring summaries.
 - Excluded cancellations or non-qualifying runs to keep reporting meaningful.
 
-**Skills demonstrated:** Dataverse, data modelling, reporting logic, automation governance, and value measurement.
+**Skills:** Dataverse, data modelling, reporting logic, automation governance, and value measurement.
 
 ### AI-Assisted Service Desk Triage
 
@@ -149,7 +149,7 @@ flowchart LR
 - Built AI-assisted search experiences over historical service data and technical manuals.
 - Treated ingestion quality, chunking, metadata, and refresh processes as part of the solution rather than relying only on the final AI interface.
 
-**Skills demonstrated:** Databricks, Delta tables, OCR, document processing, semantic retrieval, data preparation, and AI search design.
+**Skills:** Databricks, Delta tables, OCR, document processing, semantic retrieval, data preparation, and AI search design.
 
 ### Document Extraction and Reconciliation
 
@@ -164,18 +164,6 @@ flowchart LR
 
 **Skills: OCR, document intelligence, data mapping, reconciliation, exception reporting, and review workflows.
 
-## Technology Summary
-
-| Area | Technologies and methods |
-|---|---|
-| Workflow automation | Power Automate cloud flows, Power Automate Desktop, Azure Automation |
-| Scripting | PowerShell, JSON processing, REST APIs |
-| Microsoft 365 | Teams, Outlook, Forms, SharePoint, Microsoft Graph |
-| Service management | Ticket webhooks, request triggers, API-based notes and status updates |
-| Identity | Active Directory, Microsoft Entra ID, group assignment, lifecycle workflows |
-| Data and reporting | Dataverse, Databricks, Delta tables, structured run logging |
-| AI and documents | Copilot Studio, Azure AI services, OCR, document intelligence, semantic retrieval |
-| Security operations | Endpoint-security APIs, alert processing, scan automation, result polling |
 
 ## How I Approach an Automation Project
 
