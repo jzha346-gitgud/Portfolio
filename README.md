@@ -42,7 +42,7 @@ flowchart LR
 
 ## Selected Project Patterns
 
-### 1. Service Desk Ticket Automation
+### Service Desk Ticket Automation
 
 **Challenge:** Repetitive service requests required technicians to copy information between a ticketing platform, Microsoft 365, and administrative tools.
 
@@ -56,7 +56,7 @@ flowchart LR
 
 **Skills demonstrated:** webhook design, REST APIs, JSON, authentication, Power Automate, error handling, and service-management integration.
 
-### 2. Approval and Access Workflows
+### Approval and Access Workflows
 
 **Challenge:** Access requests needed consistent approvals, traceability, and different actions depending on the selected systems.
 
@@ -70,7 +70,7 @@ flowchart LR
 
 **Skills demonstrated:** approval design, branching logic, Microsoft 365 integration, identity administration, audit trails, and exception management.
 
-### 3. Identity Lifecycle Automation
+### Identity Lifecycle Automation
 
 **Challenge:** User creation and offboarding processes involved multiple systems, duplicate checks, directory lookups, approvals, and timed follow-up actions.
 
@@ -84,7 +84,7 @@ flowchart LR
 
 **Skills demonstrated:** Active Directory, PowerShell, Power Automate, validation, duplicate detection, approvals, and lifecycle controls.
 
-### 4. Infrastructure Monitoring and Automated Remediation
+### Infrastructure Monitoring and Automated Remediation
 
 **Challenge:** Shared operational devices and display systems could stop responding, require re-authentication, or need a restart after updates.
 
@@ -98,7 +98,7 @@ flowchart LR
 
 **Skills demonstrated:** PowerShell, monitoring, webhook integration, automated ticket creation, operational resilience, and migration planning.
 
-### 5. Endpoint Security Response Automation
+### Endpoint Security Response Automation
 
 **Challenge:** Security alerts required repeatable device lookup, scan initiation, result polling, and technician notification.
 
@@ -112,7 +112,7 @@ flowchart LR
 
 **Skills demonstrated:** security API integration, OAuth authentication, state polling, Power Automate, and incident-response workflow design.
 
-### 6. Operational Reporting and Time-Saved Tracking
+### Operational Reporting and Time-Saved Tracking
 
 **Challenge:** Automation value and execution history needed to be measurable rather than anecdotal.
 
@@ -125,7 +125,7 @@ flowchart LR
 
 **Skills demonstrated:** Dataverse, data modelling, reporting logic, automation governance, and value measurement.
 
-### 7. AI-Assisted Service Desk Triage
+### AI-Assisted Service Desk Triage
 
 **Challenge:** Some incoming requests could be resolved or routed more quickly by analysing their content.
 
@@ -151,7 +151,7 @@ flowchart LR
 
 **Skills demonstrated:** Databricks, Delta tables, OCR, document processing, semantic retrieval, data preparation, and AI search design.
 
-### 9. Document Extraction and Reconciliation
+### Document Extraction and Reconciliation
 
 **Challenge:** Scanned business documents needed to be compared with system exports or checked against expected values.
 
@@ -162,19 +162,7 @@ flowchart LR
 - Compared extracted records with structured exports.
 - Presented exceptions for review rather than silently changing source data.
 
-**Skills demonstrated:** OCR, document intelligence, data mapping, reconciliation, exception reporting, and review workflows.
-
-## Reliability and Security Practices
-
-- Store secrets in a managed secret store or secured connection configuration, never in public documentation or source code.
-- Use least-privilege application permissions and service identities.
-- Keep environment-specific values outside reusable workflow logic.
-- Validate all external inputs before using them in scripts or API calls.
-- Record correlation identifiers so cloud flows, scripts, and service desk updates can be traced together.
-- Use clear timeout, retry, failure, and escalation paths.
-- Review OAuth credentials and certificates before expiry.
-- Replace hard-coded allowlists with maintainable configuration or directory lookups where possible.
-- Avoid exposing webhook URLs, tenant identifiers, internal domains, or platform instance addresses.
+**Skills: OCR, document intelligence, data mapping, reconciliation, exception reporting, and review workflows.
 
 ## Technology Summary
 
