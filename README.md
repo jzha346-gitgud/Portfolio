@@ -30,6 +30,10 @@ A common solution pattern connects an IT service-management platform with Micros
 4. **Log successful and failed runs.** Structured run data supports reporting, troubleshooting, and continuous improvement.
 5. **Design for supportability.** Configuration, connection ownership, error paths, and dependencies should be documented so the solution can be maintained by another technician.
 
+## AI Workflow for Tickets
+(Saves several hours per week as well as Technician sanity)
+![AI Workflow Overview](assets/AI_Workflow.png)
+
 ## Selected Project Patterns
 
 ### Service Desk Ticket Automation
