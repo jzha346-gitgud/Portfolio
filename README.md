@@ -200,17 +200,6 @@ flowchart LR
 7. Document ownership, dependencies, credential rotation, support procedures, and recovery steps.
 8. Measure run volume, failure patterns, and manual effort avoided, then refine the solution.
 
-## Portfolio Scope
-
-This repository is a public, sanitised overview. It intentionally excludes:
-
-- Customer or employer names
-- Personal names and email addresses
-- Account names and passwords
-- API keys, tokens, certificates, and webhook URLs
-- Tenant, environment, application, and table identifiers
-- Internal domains, portals, file paths, and SharePoint locations
-- Screenshots containing private configuration or operational data
-- Production source code that could reveal internal controls
-
-Detailed demonstrations can be represented with synthetic data, redacted screenshots, simplified diagrams, and non-production sample workflows.
+## Apps and misc
+Voice controlled AI Chef Game
+https://yes-chef-game.damemezstudio.workers.dev/
