@@ -20,17 +20,7 @@ This portfolio describes the architecture, methods, and project patterns I have 
 
 A common solution pattern connects an IT service-management platform with Microsoft 365 and Power Platform services. Requests may begin in a service desk, form, email, scheduled script, or monitoring process. Power Automate coordinates the workflow, while APIs and webhooks pass data between systems.
 
-```mermaid
-flowchart LR
-    A[Service Desk or Request Form] -->|Webhook or connector| B[Power Automate Cloud]
-    C[Teams or Outlook Approval] <--> B
-    B -->|API update| A
-    B --> D[Power Automate Desktop or Azure Runbook]
-    D -->|Execution result| B
-    B --> E[Dataverse or Data Platform]
-    E --> F[Operational Reporting]
-    G[Monitoring Script] -->|Webhook| B
-```
+![Automation Flow Overview](assets/automation-overview.png)
 
 ### Design principles
 
